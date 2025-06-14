@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/evalsalud/static/css/main.ff73d93f.css",
+    "main.js": "/evalsalud/static/js/main.cf6cfa44.js",
+    "static/media/mapa.png": "/evalsalud/static/media/mapa.aa32f14b73ca119781bc.png",
+    "static/media/logo.png": "/evalsalud/static/media/logo.1d2623ad495476d72638.png",
+    "static/media/ordenador.png": "/evalsalud/static/media/ordenador.f69da3aa9eaa0d218342.png",
+    "static/media/nosotros.jpg": "/evalsalud/static/media/nosotros.08257fc6b14d278e76af.jpg",
+    "static/media/ichom.png": "/evalsalud/static/media/ichom.49877218b751d8e255c4.png",
+    "static/media/nice.png": "/evalsalud/static/media/nice.27992ff5ab34fa1e440b.png",
+    "static/media/necesitas.png": "/evalsalud/static/media/necesitas.f8e905177e4230911d33.png",
+    "static/media/obtienes.png": "/evalsalud/static/media/obtienes.9ee05d3c7d2a6bb2be1f.png",
+    "static/media/tiempo.png": "/evalsalud/static/media/tiempo.9184ae3de228b9b3e00b.png",
+    "index.html": "/evalsalud/index.html",
+    "main.ff73d93f.css.map": "/evalsalud/static/css/main.ff73d93f.css.map",
+    "main.cf6cfa44.js.map": "/evalsalud/static/js/main.cf6cfa44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff73d93f.css",
+    "static/js/main.cf6cfa44.js"
+  ]
+}
