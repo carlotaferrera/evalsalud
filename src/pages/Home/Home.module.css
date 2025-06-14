@@ -1,0 +1,98 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.mainContent {
+  flex: 1;
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.heroSection {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.mainTitle {
+  font-family: 'Poppins', sans-serif;
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: #004a6e;
+  margin-bottom: 0rem;
+}
+
+.subtitle {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.5rem;
+  color: #000000;
+  line-height: 0.5;
+  margin-top: 0;
+}
+
+/* Contenedor principal */
+.imageContainer {
+  position: relative; /* Para posicionar el rectángulo detrás */
+  width: 90%; /* Ocupa casi todo el ancho */
+  max-width: 1000px;
+  margin: 1.5rem 0;
+}
+
+/* Rectángulo decorativo */
+.decorativeRectangle {
+  position: absolute;
+  width: 150%;
+  height: 80%; /* Más fino que la imagen */
+  background-color: #4fb4c6; /* Mismo color que el botón */
+  opacity: 0.65; /* Ligera transparencia */
+  border-radius: 20px; /* Bordes redondos */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; /* Detrás de la imagen */
+}
+
+/* Imagen más pequeña y centrada */
+.appImage {
+  width: 80%; /* Más pequeña que el contenedor */
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2; /* Encima del rectángulo */
+  border-radius: 10px;
+
+}
+
+.evaluationButton {
+  background-color: #4fb4c6;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 1rem 2.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.evaluationButton:hover {
+  background-color: #3a8f99;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}

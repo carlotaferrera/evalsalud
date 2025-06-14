@@ -1,0 +1,97 @@
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.mainContent {
+  flex: 1;
+  padding: 2rem 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.mainTitle {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #004a6e;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.infoColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contactCard {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+}
+
+.contactCard:hover {
+  transform: translateY(-5px);
+}
+
+.contactCard h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #4fb4c6;
+  margin-bottom: 0.5rem;
+}
+
+.contactCard p {
+  font-family: 'Outfit', sans-serif;
+  color: #555;
+  line-height: 1.6;
+}
+
+.icon {
+  color: #004a6e;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.mapColumn {
+  position: relative;
+}
+
+.mapImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.mapOverlay {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(0, 74, 110, 0.8);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contactGrid {
+    grid-template-columns: 1fr;
+  }
+}

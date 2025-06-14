@@ -1,0 +1,165 @@
+.fullPageContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.mainContent {
+  flex: 1;
+  padding: 2rem 4rem;
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.contentContainer {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.mainTitle {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #004a6e;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.description {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.formContainer {
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 74, 110, 0.05);
+}
+
+.formGroup {
+  margin-bottom: 1.5rem;
+}
+
+.formGroup label {
+  display: block;
+  font-family: 'Poppins', sans-serif, bold;
+  font-size: 1rem;
+  color: #006992;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.inputField,
+.textareaField {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: 'Outfit', sans-serif;
+  transition: all 0.3s;
+}
+
+.inputField:focus,
+.textareaField:focus {
+  border-color: #4fb4c6;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(79, 180, 198, 0.2);
+}
+
+.textareaField {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.radioGroup {
+  margin: 2rem 0;
+}
+
+.radioTitle {
+  font-family: 'Poppins', sans-serif;
+  color: #004a6e;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.radioOptions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.radioLabel {
+  display: flex;
+  align-items: center;
+  font-family: 'Outfit', sans-serif;
+  color: #333;
+  cursor: pointer;
+  position: relative;
+}
+
+.radioInput {
+  opacity: 0;
+  position: absolute;
+}
+
+.radioCustom {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #4fb4c6;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  position: relative;
+}
+
+.radioInput:checked + .radioCustom::before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 10px;
+  height: 10px;
+  background: #4fb4c6;
+  border-radius: 50%;
+}
+
+.submitButton {
+  background: #4fb4c6;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.3s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.submitButton:hover {
+  background: #006992;
+}
+
+.bottomSpace {
+  height: 80px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .mainContent {
+    padding: 1.5rem;
+  }
+  
+  .radioOptions {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+}

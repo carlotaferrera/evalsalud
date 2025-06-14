@@ -1,0 +1,13 @@
+:root {
+  --color-principal: #4fb4c6;
+  --color-principal-hover: #3a8f99;
+  --color-texto: #004a6e;
+  --color-fondo-header: #f0f0f0;
+
+  --font-size-base: 16px;
+  --font-size-large: 20px;
+  --font-size-button: 18px;
+
+  --border-radius: 30px;
+  --transition: all 0.3s ease;
+}

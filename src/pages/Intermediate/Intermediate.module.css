@@ -1,0 +1,146 @@
+.fullPageContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 0 40px;
+  height: 150px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.logoContainer {
+  justify-self: start;
+}
+
+.logo {
+  height: 180px;
+  width: auto;
+  max-width: 300px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex: 2;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #333333;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding: 10px 0;
+  white-space: nowrap;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.navLink:hover {
+  color: #4fb4c6;
+}
+
+.primaryButton {
+  background-color: #4fb4c6;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 35px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  max-width: 250px;
+  margin-left: auto;
+}
+
+.primaryButton:hover {
+  background-color: #3a8f99;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.mainContent {
+  flex: 1;
+  padding: 12rem 2rem 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.6rem; /* antes 2rem */
+  color: #004a6e;
+  text-align: center;
+  margin-bottom: 3rem; /* puedes ajustar si lo quieres aún más separado */
+}
+
+.marcoContainer {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem 1rem;
+  border: 2px solid #4fb4c6;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+}
+
+.marcoImage {
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.marcoText {
+  max-width: 500px;
+}
+
+.marcoText h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  color: #004a6e;
+  margin-bottom: 1rem;
+}
+
+.marcoText p {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #333333;
+}
+
+.bottomButtonContainer {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+/* Estilo reutilizado para BackButton */
+.backButtonContainer {
+  margin-top: 3rem;
+  text-align: center;
+}
