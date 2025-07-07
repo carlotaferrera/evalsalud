@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/evalsalud/static/css/main.ea2833f1.css",
-    "main.js": "/evalsalud/static/js/main.d0a392a5.js",
+    "main.js": "/evalsalud/static/js/main.65a3757e.js",
     "static/media/mapa.png": "/evalsalud/static/media/mapa.aa32f14b73ca119781bc.png",
     "static/media/logo.png": "/evalsalud/static/media/logo.1d2623ad495476d72638.png",
     "static/media/ordenador.png": "/evalsalud/static/media/ordenador.f69da3aa9eaa0d218342.png",
@@ -13,10 +13,10 @@
     "static/media/tiempo.png": "/evalsalud/static/media/tiempo.9184ae3de228b9b3e00b.png",
     "index.html": "/evalsalud/index.html",
     "main.ea2833f1.css.map": "/evalsalud/static/css/main.ea2833f1.css.map",
-    "main.d0a392a5.js.map": "/evalsalud/static/js/main.d0a392a5.js.map"
+    "main.65a3757e.js.map": "/evalsalud/static/js/main.65a3757e.js.map"
   },
   "entrypoints": [
     "static/css/main.ea2833f1.css",
-    "static/js/main.d0a392a5.js"
+    "static/js/main.65a3757e.js"
   ]
 }
